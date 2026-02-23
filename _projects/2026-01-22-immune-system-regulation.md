@@ -4,7 +4,6 @@ subtitle: 'to maintain balance and prevent over-inflammation'
 date: 2026-01-22 00:00:00
 description: New research has found that...
 featured_image: '/images/comms-projects/immune-system-regulation/1.png'
-article_url: 'https://www.kcl.ac.uk/news/a-balancing-act-preventing-an-overactive-immune-system'
 client: "King's College London"
 graphics:
   - '/images/comms-projects/immune-system-regulation/1.png'
@@ -18,7 +17,7 @@ graphics:
   - '/images/comms-projects/immune-system-regulation/10.png'
 ---
 
-Visuals and article by Francesca Greenstreet for King's College London.
+Visuals by Francesca Greenstreet for King's College London.
 
 [Read the article →](https://www.kcl.ac.uk/news/a-balancing-act-preventing-an-overactive-immune-system)
 
