@@ -122,9 +122,7 @@
 
 		// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Show content
 
-		// Wait until first image has loaded
-		$('.page__content').find('img:first').imagesLoaded( function() {
-	
+		function showContent() {
 			// Portfolio grid layout
 			$('.portfolio-wrap').imagesLoaded( function() {
 				$('.portfolio-wrap').masonry({
@@ -146,7 +144,18 @@
 
 			// Hide the menu
 			$('body').removeClass('menu--open');
-		});
+		}
+
+		// Check if page has images
+		var $firstImage = $('.page__content').find('img:first');
+
+		if ($firstImage.length > 0) {
+			// Wait until first image has loaded
+			$firstImage.imagesLoaded(showContent);
+		} else {
+			// No images, show content immediately
+			showContent();
+		}
 
 
 
