@@ -61,6 +61,7 @@
 	letter-spacing: $sitetitle-spacing;
 	line-height: 1;
 	color: $text-dark-color;
+	margin-right: 60px;
 
 	&:hover {
 		color: $accent-color;
@@ -68,6 +69,10 @@
 
 	@include mq(tabletp) {
 		font-size: $sitetitle-medium;
+	}
+
+	@include mq(tabletl) {
+		margin-right: 0;
 	}
 
 	@include mq(laptop) {
