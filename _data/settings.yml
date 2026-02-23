@@ -179,6 +179,6 @@ font_settings:
 advanced_settings:
   ajax_loading: true
   analytics_code: ""
-  custom_styles: ".menu__list__item--child { padding-left: 15px; } .menu__list__item--child .menu__list__item__link { font-size: 0.9em; opacity: 0.8; }"
+  custom_styles: ".menu__list__item--child { padding-left: 15px; } .menu__list__item--child .menu__list__item__link { font-size: 0.9em; opacity: 0.8; } iframe { max-width: 100%; }"
   header_js: ""
   footer_js: ""
