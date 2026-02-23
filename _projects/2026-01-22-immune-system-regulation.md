@@ -1,6 +1,6 @@
 ---
 title: 'New mechanism found for immune system regulation'
-subtitle: 'to remain balance and prevent over-inflammation'
+subtitle: 'to maintain balance and prevent over-inflammation'
 date: 2026-01-22 00:00:00
 description: New research has found that...
 featured_image: '/images/comms-projects/immune-system-regulation/1.png'
