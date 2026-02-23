@@ -78,11 +78,15 @@
 			// Get the link target
 			var thisTarget = $(this).attr('href');
 
-			// If we don't want to use ajax, or the link is an anchor/mailto/tel
-			if ($(this).hasClass('js-no-ajax') || thisTarget.indexOf('#') >= 0 || thisTarget.indexOf('mailto:') >= 0 || thisTarget.indexOf('tel:') >= 0) {
+			// If we don't want to use ajax, or the link is an anchor/mailto/tel/pdf/download
+			if ($(this).hasClass('js-no-ajax') || thisTarget.indexOf('#') >= 0 || thisTarget.indexOf('mailto:') >= 0 || thisTarget.indexOf('tel:') >= 0 || thisTarget.indexOf('.pdf') >= 0 || $(this).attr('download') !== undefined || $(this).attr('target') === '_blank') {
 
-				// Use the given link
-				window.location = thisTarget;
+				// Use the given link (open in new tab if target="_blank")
+				if ($(this).attr('target') === '_blank') {
+					window.open(thisTarget, '_blank');
+				} else {
+					window.location = thisTarget;
+				}
 			}
 
 			// If link is handled by some JS action – e.g. fluidbox
