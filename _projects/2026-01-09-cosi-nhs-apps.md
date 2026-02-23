@@ -4,7 +4,6 @@ subtitle: "A case study from children's insomnia"
 date: 2026-01-09 00:00:00
 description: Exploring whether apps can address the shortage of specialist resources in the NHS, using children's insomnia as a case study.
 featured_image: '/images/comms-projects/cosi/1.png'
-article_url: 'https://www.kcl.ac.uk/can-apps-help-with-nhs-shortages-epilepsy-insomnia'
 video_url: 'https://www.kcl.ac.uk/can-apps-help-with-nhs-shortages-epilepsy-insomnia'
 client: "King's College London"
 graphics:
@@ -13,9 +12,9 @@ graphics:
   - '/images/comms-projects/cosi/3.png'
 ---
 
-Visuals, video interview and article by Francesca Greenstreet for King's College London.
+Visuals and video interview by Francesca Greenstreet for King's College London.
 
-[Read the article and watch the video→](https://www.kcl.ac.uk/can-apps-help-with-nhs-shortages-epilepsy-insomnia)
+[Watch the video [bottom of article]→](https://www.kcl.ac.uk/can-apps-help-with-nhs-shortages-epilepsy-insomnia)
 
 
 
