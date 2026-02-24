@@ -1,6 +1,6 @@
 ---
-title: "Bioengineered neuronal 'circuit board'"
-subtitle: mimics conditions of the human brain
+title: "Bioengineered neuronal 'circuit board' mimics conditions of the human brain"
+subtitle: 
 date: 2026-02-24 00:00:00
 description: A new bioengineered neuronal circuit board "BioConNet" allows scientists to artificially engineer human brain-like wiring at scale and can be used to engineer any possible circuit.
 featured_image: '/images/comms-projects/BioConNet/1.png'
