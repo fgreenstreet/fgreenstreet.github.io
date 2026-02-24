@@ -16,7 +16,11 @@ featured_image: /images/about/banner_linkedin.png
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
 
 				<div class="portfolio-item__image">
+					{% if project.thumbnail_image %}
+					<img src="{{ project.thumbnail_image | relative_url }}" alt="{{ project.title }}">
+					{% else %}
 					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+					{% endif %}
 				</div>
 
 				<div class="portfolio-item__content">
