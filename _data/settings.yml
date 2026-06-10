@@ -18,6 +18,8 @@ menu_settings:
           url: '/articles'
         - title: 'Videos'
           url: '/videos'
+        - title: 'Podcasts'
+          url: '/podcasts'
     - title: 'About'
       url: '/about'
     - title: 'CV'

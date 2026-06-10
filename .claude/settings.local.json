@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(unzip:*)",
-      "WebFetch(domain:www.kcl.ac.uk)"
+      "WebFetch(domain:www.kcl.ac.uk)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(ls:*)",
+      "Bash(grep:*)",
+      "Bash(xargs -I{} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && head -15 {}')",
+      "Bash(bundle exec jekyll build:*)",
+      "WebFetch(domain:open.spotify.com)",
+      "WebFetch(domain:www.neuroversepod.com)"
     ]
   }
 }

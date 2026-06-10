@@ -90,3 +90,23 @@
 		font-size: $grid-item-subtitle-large;
 	}
 }
+
+.portfolio-item--video {
+	width: 100%;
+	padding-top: $grid-spacing/4;
+	padding-bottom: $grid-spacing/4;
+
+	@include mq(tabletp) {
+		width: 50%;
+	}
+}
+
+.portfolio-item__embed {
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+
+	iframe {
+		max-width: 100%;
+	}
+}

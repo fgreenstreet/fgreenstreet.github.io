@@ -11,6 +11,11 @@ featured_image: /images/about/banner_linkedin.png
 
 		{% for project in site.projects reversed %}
 		{% if project.featured_image %}
+		{% if project.project %}
+		{% assign project_featured_image = "/images/comms-projects/" | append: project.project | append: "/" | append: project.featured_image %}
+		{% else %}
+		{% assign project_featured_image = project.featured_image %}
+		{% endif %}
 		<div class="portfolio-item">
 
 			<a class="portfolio-item__link" href="{{ project.url | relative_url }}">
@@ -19,7 +24,7 @@ featured_image: /images/about/banner_linkedin.png
 					{% if project.thumbnail_image %}
 					<img src="{{ project.thumbnail_image | relative_url }}" alt="{{ project.title }}">
 					{% else %}
-					<img src="{{ project.featured_image | relative_url }}" alt="{{ project.title }}">
+					<img src="{{ project_featured_image | relative_url }}" alt="{{ project.title }}">
 					{% endif %}
 				</div>
 
