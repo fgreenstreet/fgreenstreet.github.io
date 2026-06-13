@@ -3,12 +3,12 @@ title: 'Nature Within with James Bashford'
 subtitle: ""
 date: 2026-01-06 00:00:00
 description: We sat down with doctor and neuroscientist Dr James Bashford to talk about his new book, 'Nature Within', which is out today.
-featured_image: '/images/comms-projects/nature-within/NatureWithin_thumbnail.png'
+featured_image: '/images/comms-projects/nature-within/NatureWithin_thumbnail.webp'
 article_url:
 video_url: 'https://www.linkedin.com/posts/kingsioppn_we-sat-down-with-doctor-and-neuroscientist-activity-7414266430923411456-x5dN?utm_source=share&utm_medium=member_desktop&rcm=ACoAABmWWBsBdDrxGBZ1dsDczgBT6YHnGVSXyQw'
 linkedin_embed_id: 'ugcPost:7414266256045785088'
 images:
-  - '/images/comms-projects/nature-within/JamesBashford.png'
+  - '/images/comms-projects/nature-within/JamesBashford.webp'
 client: King's College London
 ---
 Video interview, filming and edit by Francesca Greenstreet for King's College London.

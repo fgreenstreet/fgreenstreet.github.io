@@ -9,7 +9,30 @@
       "Bash(xargs -I{} sh -c 'echo \"\"\"\"=== {} ===\"\"\"\" && head -15 {}')",
       "Bash(bundle exec jekyll build:*)",
       "WebFetch(domain:open.spotify.com)",
-      "WebFetch(domain:www.neuroversepod.com)"
+      "WebFetch(domain:www.neuroversepod.com)",
+      "Bash(git pull:*)",
+      "Bash(bundle lock:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(file:*)",
+      "Bash(sips:*)",
+      "WebFetch(domain:fgreenstreet.github.io)",
+      "Bash(find:*)",
+      "Bash(sort:*)",
+      "Bash(for:*)",
+      "Bash(do [ -f \"$f\" ])",
+      "Bash(echo:*)",
+      "Bash(done)",
+      "Bash(do if [ -f \"$f\" ])",
+      "Bash(then sips --resampleHeightWidthMax 2000 \"$f\")",
+      "Bash(fi)",
+      "Bash(brew list:*)",
+      "Bash(du:*)",
+      "Bash(while read path)",
+      "Bash(do file=\"/Users/jessegeerts/Projects/cesca-website/fgreenstreet.github.io$path\")",
+      "Bash(if [ -f \"$file\" ])",
+      "Bash(then echo \"OK: $path\")",
+      "Bash(else echo \"MISSING: $path\")"
     ]
   }
 }

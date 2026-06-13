@@ -18,7 +18,7 @@ layout: default
 <div class="portfolio-item">
 <a class="portfolio-item__link" href="{{ project.url | relative_url }}">
 <div class="portfolio-item__image">
-<img src="{{ project_featured_image | relative_url }}" alt="{{ project.title }}">
+<img src="{{ project_featured_image | relative_url }}" alt="{{ project.title }}" loading="lazy">
 </div>
 <div class="portfolio-item__content">
 <div class="portfolio-item__info">

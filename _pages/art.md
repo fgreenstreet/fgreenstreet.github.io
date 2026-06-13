@@ -5,18 +5,19 @@ permalink: /art
 ---
 
 <div class="art-grid">
-  <div class="art-item"><img src="/images/art/painting-cesca.jpeg.png" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_8863_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/bath-leg.png" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_0340_converted.jpg" alt="Painting"></div>
-   <div class="art-item"><img src="/images/art/IMG_9494_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_8999_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_2822_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/37089CB4-C25F-4270-BC73-DA01D4AF44DF.JPG" alt="Painting"></div>
-    <div class="art-item"><img src="/images/art/IMG_8699_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_8145_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_8152_converted.jpg" alt="Painting"></div>
-  <div class="art-item"><img src="/images/art/IMG_8423_converted.jpg" alt="Painting"></div>
+  <div class="art-item"><img src="/images/art/painting-cesca.jpeg.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8863_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/bath-leg.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_0340_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_9494_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8999_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_2822_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/37089CB4-C25F-4270-BC73-DA01D4AF44DF.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8699_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8145_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8152_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_8423_converted.webp" alt="Painting" loading="lazy"></div>
+  <div class="art-item"><img src="/images/art/IMG_1476_converted.webp" alt="Painting" loading="lazy"></div>
 </div>
 
 <div class="lightbox" id="lightbox">
@@ -103,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   artItems.forEach(function(img) {
     img.addEventListener('click', function() {
-      lightboxImage.src = this.src;
+      lightboxImage.src = this.dataset.full || this.src;
       lightbox.classList.add('active');
     });
   });
