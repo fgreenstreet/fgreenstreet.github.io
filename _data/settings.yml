@@ -24,6 +24,8 @@ menu_settings:
       url: '/about'
     - title: 'CV'
       url: '/cv'
+    - title: 'Public Engagement'
+      url: '/outreach'
     - title: 'Research'
       url: '/research'
     - title: 'Contact'
