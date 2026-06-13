@@ -28,6 +28,8 @@ menu_settings:
       url: '/outreach'
     - title: 'Research'
       url: '/research'
+    - title: 'Art'
+      url: '/art'
     - title: 'Contact'
       url: '/contact'
 

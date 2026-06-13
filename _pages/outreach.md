@@ -26,7 +26,7 @@ permalink: /outreach
     <div class="outreach-content">
       <h3>Great Exhibition Road Festival</h3>
       <p class="outreach-date">May 2025</p>
-      <p>Developed an exhibit in collaboration with a dance company to build AI-inspired dance game.s</p>
+      <p>Developed an exhibit in collaboration with a dance company to build AI-inspired dance games.</p>
     </div>
   </div>
 
@@ -37,7 +37,7 @@ permalink: /outreach
     <div class="outreach-content">
       <h3>Sutton Trust Summer School</h3>
       <p class="outreach-date">May - July 2025</p>
-      <p>Developed and delivered hands-on classes about learning in brains and machines.</p>
+      <p>Developed and delivered hands-on sessions about learning in brains and machines.</p>
     </div>
   </div>
 
