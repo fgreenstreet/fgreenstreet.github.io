@@ -95,30 +95,3 @@ permalink: /art
   color: #ccc;
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const lightbox = document.getElementById('lightbox');
-  const lightboxImage = document.getElementById('lightbox-image');
-  const artItems = document.querySelectorAll('.art-item img');
-
-  artItems.forEach(function(img) {
-    img.addEventListener('click', function() {
-      lightboxImage.src = this.dataset.full || this.src;
-      lightbox.classList.add('active');
-    });
-  });
-
-  lightbox.addEventListener('click', function(e) {
-    if (e.target === lightbox || e.target.classList.contains('lightbox-close')) {
-      lightbox.classList.remove('active');
-    }
-  });
-
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') {
-      lightbox.classList.remove('active');
-    }
-  });
-});
-</script>

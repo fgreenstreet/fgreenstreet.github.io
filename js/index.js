@@ -346,10 +346,36 @@
 			$(this).wrapAll('<div class="table-wrap"></div>');
 		});
 
+
+
 	}
 
 	// Run functions on load
 	pageFunctions();
+
+	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Art Lightbox
+
+	// Use event delegation so it works with AJAX-loaded content
+	$(document).on('click', '.art-item img', function() {
+		var $lightbox = $('#lightbox');
+		var $lightboxImage = $('#lightbox-image');
+		if ($lightbox.length && $lightboxImage.length) {
+			$lightboxImage.attr('src', $(this).data('full') || $(this).attr('src'));
+			$lightbox.addClass('active');
+		}
+	});
+
+	$(document).on('click', '#lightbox, .lightbox-close', function(e) {
+		if ($(e.target).is('#lightbox') || $(e.target).hasClass('lightbox-close')) {
+			$('#lightbox').removeClass('active');
+		}
+	});
+
+	$(document).on('keydown', function(e) {
+		if (e.key === 'Escape') {
+			$('#lightbox').removeClass('active');
+		}
+	});
 
 
 	// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Menu
