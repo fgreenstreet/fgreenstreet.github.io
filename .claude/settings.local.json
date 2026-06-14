@@ -32,7 +32,8 @@
       "Bash(do file=\"/Users/jessegeerts/Projects/cesca-website/fgreenstreet.github.io$path\")",
       "Bash(if [ -f \"$file\" ])",
       "Bash(then echo \"OK: $path\")",
-      "Bash(else echo \"MISSING: $path\")"
+      "Bash(else echo \"MISSING: $path\")",
+      "Bash(xargs:*)"
     ]
   }
 }

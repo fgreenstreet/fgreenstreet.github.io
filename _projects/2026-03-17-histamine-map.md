@@ -3,7 +3,7 @@ title: 'Brain histamine map connects genes to brain function and mental health'
 date: 2026-05-12 00:00:00
 description:
 project: histamine-map
-featured_image: '1.webp'
+featured_image: '01.webp'
 article_url: 'https://www.kcl.ac.uk/news/brain-histamine-map-connects-genes-to-brain-function-and-mental-health'
 client: "King's College London"
 ---

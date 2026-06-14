@@ -3,7 +3,7 @@ title: 'Key timepoint, neuron type, and cellular functions identified for schizo
 date: 2026-05-20 00:00:00
 description:
 project: schizo-risk-genes
-featured_image: '1.webp'
+featured_image: '01.webp'
 article_url: 'https://www.kcl.ac.uk/news/key-timepoint-neuron-type-and-cellular-functions-identified-for-schizophrenia-risk-gene'
 client: "King's College London"
 ---
