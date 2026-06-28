@@ -22,8 +22,6 @@ menu_settings:
           url: '/podcasts'
     - title: 'About'
       url: '/about'
-    - title: 'CV'
-      url: '/cv'
     - title: 'Public Engagement'
       url: '/outreach'
     - title: 'Research'
