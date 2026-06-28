@@ -1,5 +1,5 @@
 ---
-title: 'Parkinsons hallucinations linked to altered brain region communications'
+title: 'Parkinson''s hallucinations linked to altered brain region communications'
 date: 2026-06-10 00:00:00
 description:
 project: parkinsons-hallucinations
